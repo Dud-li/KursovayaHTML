@@ -113,7 +113,7 @@ button{
     }
     aside.open {
         display: flex;
-        top:21%;
+        top:18%;
         background-color: white;
         z-index: 1;
     }
