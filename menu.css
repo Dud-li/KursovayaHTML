@@ -25,7 +25,7 @@
 .head{
     display: flex;
     position: relative;
-    top:10px;
+    top:8px;
     justify-content: space-around;
 }
 a{
@@ -37,7 +37,24 @@ a{
 p{
     text-align: center;
 }
-.return{
+.return2{
+    display: block;
+    position: absolute;
+    top:6px;
+    left: 0;
     background:rgba(70, 77, 172, 0);
-    margin-left: 30px;
+    font-size: 200%;
+}    
+.return1{
+    display: none;
+}
+@media (max-device-width:550px){
+    .return1{
+        display: block;
+        background:rgba(70, 77, 172, 0);
+        margin-left: 30px;
+    }
+    .return2{
+        display: none;
+    }
 }

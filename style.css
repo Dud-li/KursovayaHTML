@@ -76,7 +76,7 @@ button{
         height: 1052px ;
         width: 50%;
         background:white;
-        opacity: 0;
+        display: none;
     }
     .column1,.column2,.column3,.column4{
         flex: 35%;
@@ -112,8 +112,8 @@ button{
         left:100%;
     }
     aside.open {
+        display: flex;
         top:21%;
-        opacity: 1;
         background-color: white;
         z-index: 1;
     }
