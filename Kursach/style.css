@@ -58,9 +58,9 @@ button{
 
 @media (max-width:1200px) and (min-width: 800px) {
     .column1,.column2,.column3,.column4{
-    flex: 40%;
-    max-width: 40%;
-    padding: 1px;
+        flex: 40%;
+        max-width: 40%;
+        padding: 1px;
     }
     aside{
         height: 1052px;
@@ -112,7 +112,7 @@ button{
         left:100%;
     }
     aside.open {
-        top:21%; /*поменять под телефон*/
+        top:21%;
         opacity: 1;
         background-color: white;
         z-index: 1;
