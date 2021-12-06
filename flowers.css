@@ -1,0 +1,50 @@
+body{
+    height: 535px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: large;
+}
+#aloe{
+    background:linear-gradient(90deg, rgb(144, 139, 207), rgb(181, 204, 214));
+}
+#ant{
+    background:linear-gradient(90deg, rgb(214, 241, 232),rgb(123, 216, 196));
+}
+#cactus{
+    background:linear-gradient(90deg, rgb(217, 140, 236),rgb(247, 233, 248));
+}
+#geran{
+    background:linear-gradient(90deg, rgb(226, 196, 157),rgb(226, 166, 87));
+}
+#mirt{
+    background: linear-gradient(90deg,rgb(183, 115, 228),rgb(224, 204, 238));
+}
+#orhid{
+    background: linear-gradient(90deg,rgb(226, 206, 206),rgb(224, 61, 61));
+}
+#spat{
+    background: linear-gradient(90deg,rgb(73, 70, 202),rgb(183, 182, 231));
+}
+#tolst{
+    background: linear-gradient(90deg, rgb(248, 253, 212),rgb(238, 220, 56));
+}
+h1{
+    text-align: center;
+}
+p{
+    text-indent: 50px;
+}
+.right{
+    position: relative;
+    right: 10px;
+}
+.submenu{
+    padding-left: 300px;
+}
+img{
+    border-radius: 10px;
+}
+@media (max-width: 1000px) {
+    body{
+        height: max-content;
+    }
+}

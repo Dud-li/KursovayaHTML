@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible"  content="IE=edge">  
+        <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Домашние растения</title>
+    </head>
+    <body>
+        <h1><span>Миниатюрная энциклопедия домашних растений</span></h1>
+        <button class="MobileMenu" id="MobileMenu" onclick="OpenMenu()">
+            Открыть сипсок растений
+        </button>
+        <aside id ="menu">
+            <h2>Наиболее популярные растения:</h2>
+            <a class ="txt" href="./aloe/aloe.html">Алоэ древовидное</a><br>
+            <a class ="txt" href="./anturium/anturium.html">Антуриум</a><br>
+            <a class ="txt" href="./geran/geran.html">Герань</a><br>
+            <a class ="txt" href="./cactus/cactus.html">Кактус</a><br>
+            <a class ="txt" href="./mirt/mirt.html">Мирт</a><br>
+            <a class ="txt" href="./orhideya/orhid.html">Орхидея</a><br>
+            <a class ="txt" href="./spat/spat.html">Спатифиллум</a><br>
+            <a class ="txt" href="./tolst/tolst.html">Толстянка</a>
+        </aside>
+        <main>
+            <div class="columns">
+                <div class="column1">
+                    <a href="./aloe/aloe.html"><img src="Aloe.jpg" alt="aloe" width="255" height="255"></a>
+                    <a href="./mirt/mirt.html"><img src="Mirt.jpg" alt="mirt" width="255" height="255">
+                </div>
+                <div class="column2">
+                    <a href="./anturium/anturium.html"><img src="Anturium.jpg" alt="anturium" width="255" height="255"></a>
+                    <a href="./orhideya/orhid.html"><img src="Orhideya.jpg" alt="orhideya" width="255" height="255"></a>
+                </div>
+                <div class="column3">
+                    <a href ="./geran/geran.html"><img src="Geran.jpg" alt="geran" width="255" height="255"></a>
+                    <a href="./spat/spat.html"><img src="Spatifillum.jpg" alt="spatifillum" width="255" height="255"></a>
+                </div>
+                <div class="column4">
+                    <a href ="./cactus/cactus.html"><img src="Cactus.jpg" alt="cactus" width="255" height="255"></a>
+                    <a href="./tolst/tolst.html"><img src="Tolstyanka.jpg" alt="tree" width="255" height="255"></a>
+                </div>
+            </div>
+        </main>
+        <script but>
+            function OpenMenu(){
+                document.getElementById('MobileMenu').classList.toggle('open')
+                document.getElementById('menu').classList.toggle('open')
+            }
+        </script>
+    </body>
+</html>
