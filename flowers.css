@@ -33,10 +33,6 @@ h1{
 p{
     text-indent: 50px;
 }
-.right{
-    position: relative;
-    right: 10px;
-}
 .submenu{
     padding-left: 300px;
 }
@@ -46,5 +42,8 @@ img{
 @media (max-width: 1000px) {
     body{
         height: max-content;
+    }
+    .submenu{
+        padding-left: 70px;
     }
 }
